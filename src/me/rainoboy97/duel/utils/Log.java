@@ -26,5 +26,4 @@ public class Log {
 		log(Level.WARNING, e.getMessage());
 		e.printStackTrace();
 	}
-
 }
