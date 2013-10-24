@@ -11,7 +11,12 @@ public class Duel extends JavaPlugin {
 	}
 
 	public void onEnable() {
+		this.registerCommands();
+	}
 
+	private void registerCommands() {
+		//Register command with this format:
+		//new <classname>();
 	}
 
 	public void onLoad() {
